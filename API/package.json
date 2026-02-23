@@ -1,0 +1,29 @@
+{
+  "name": "asela_workshop",
+  "version": "1.0.0",
+  "description": "project test",
+  "homepage": "https://github.com/sahancliyanage/asela_workshop#readme",
+  "bugs": {
+    "url": "https://github.com/sahancliyanage/asela_workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahancliyanage/asela_workshop.git"
+  },
+  "license": "ISC",
+  "author": "sahan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
+  }
+}
