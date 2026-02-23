@@ -1,5 +1,19 @@
-const express = require('express');
+import cors from 'cors';
+import express from 'express';
+
+
+// const express = require('express');
 const app = express();
+
+
+// CORS middleware - place BEFORE your routes
+app.use(cors({
+  origin: 'http://localhost:5173',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+  allowedHeaders: ['Content-Type']
+}));
+
 
 //middleware for json
 app.use(express.json());
