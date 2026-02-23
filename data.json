@@ -1,0 +1,12 @@
+{
+    "student":{
+        "name": "Asela",
+        "age": 25,
+        "course": "Web Development"
+    },
+    "teacher":{
+        "name": "Sahan",
+        "age": 30
+        
+    }
+}
