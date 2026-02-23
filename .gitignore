@@ -1,0 +1,13 @@
+# Common PHP / web project ignores
+vendor/
+node_modules/          # if you use any JS
+.env
+*.log
+storage/logs/
+bootstrap/cache/
+.DS_Store
+Thumbs.db
+
+# If you have compiled or temp files
+*.cache
+temp/
